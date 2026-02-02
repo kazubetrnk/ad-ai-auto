@@ -20,8 +20,8 @@
         "name": "AgentKits Team"
       },
       "homepage": "https://agentkits.net",
-      "repository": "https://github.com/agentkits/agentkits-marketing",
-      "documentation": "https://docs.agentkits.net",
+      "repository": "https://github.com/aitytech/agentkits-marketing",
+      "documentation": "https://www.agentkits.net/docs",
       "license": "MIT",
       "keywords": [
         "marketing",
