@@ -1,4 +1,3 @@
----
 <p align="center">
   <img src="https://raw.githubusercontent.com/aitytech/agentkits-marketing/main/assets/logo.svg" alt="AgentKits Logo" width="80" height="80">
 </p>
@@ -31,7 +30,7 @@
 </p>
 
 <p align="center">
-  <a href="README.md">English</a> | <strong>Tiếng Việt</strong> | <a href="README.ja.md">日本語</a>
+  🌐 <a href="README.md">English</a> · <a href="README.zh.md">简体中文</a> · <a href="README.ja.md">日本語</a> · <a href="README.ko.md">한국어</a> · <a href="README.es.md">Español</a> · <a href="README.de.md">Deutsch</a> · <a href="README.fr.md">Français</a> · <a href="README.pt-br.md">Português</a> · <strong>Tiếng Việt</strong> · <a href="README.ru.md">Русский</a> · <a href="README.ar.md">العربية</a>
 </p>
 
 ---
