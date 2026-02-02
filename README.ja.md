@@ -1,11 +1,11 @@
 <p align="center">
-  <img src="assets/logo.svg" alt="AgentKits Logo" width="80" height="80">
+  <img src="https://raw.githubusercontent.com/aitytech/agentkits-marketing/main/assets/logo.svg" alt="AgentKits Logo" width="80" height="80">
 </p>
 
 <h1 align="center">AgentKits Marketing</h1>
 
 <p align="center">
-  <a href="https://github.com/agentkits/agentkits-marketing/stargazers"><img src="https://img.shields.io/github/stars/agentkits/agentkits-marketing?style=flat" alt="Stars"></a>
+  <a href="https://github.com/aitytech/agentkits-marketing/stargazers"><img src="https://img.shields.io/github/stars/aitytech/agentkits-marketing?style=flat" alt="Stars"></a>
   <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License">
   <img src="https://img.shields.io/badge/Claude_Code%20|%20Cursor%20|%20Copilot-Compatible-blueviolet" alt="AI Assistants">
   <br>
@@ -90,37 +90,33 @@ agentkits-marketing/
 
 ## インストール
 
-### オプション1: プラグインとしてインストール（推奨）
+### オプション1: npxでインストール（推奨）
 
-Claude Codeのプラグインシステムから直接インストール:
+1つのコマンドで18エージェント、28スキル、93コマンドをインストール:
 
 ```bash
-# このリポジトリをマーケットプレイスとして追加
-/plugin marketplace add agentkits/agentkits-marketing
-
-# プラグインをインストール
-/plugin install agentkits-marketing@agentkits-marketing
+npx @aitytech/agentkits-marketing install
 ```
 
-または`~/.claude/settings.json`に直接追加:
+**プラットフォーム別インストール:**
 
-```json
-{
-  "extraKnownMarketplaces": {
-    "agentkits-marketing": {
-      "source": {
-        "source": "github",
-        "repo": "agentkits/agentkits-marketing"
-      }
-    }
-  },
-  "enabledPlugins": {
-    "agentkits-marketing@agentkits-marketing": true
-  }
-}
+```bash
+npx @aitytech/agentkits-marketing install --platform claude    # Claude Code
+npx @aitytech/agentkits-marketing install --platform cursor    # Cursor IDE
+npx @aitytech/agentkits-marketing install --platform windsurf  # Windsurf
+npx @aitytech/agentkits-marketing install --platform cline     # Cline
+npx @aitytech/agentkits-marketing install --platform copilot   # GitHub Copilot
+npx @aitytech/agentkits-marketing install --platform all       # 全プラットフォーム
 ```
 
-これですべてのcommands、agents、skills、workflowsに即座にアクセスできます。
+**その他のCLIコマンド:**
+
+```bash
+npx @aitytech/agentkits-marketing --help        # 全コマンドを表示
+npx @aitytech/agentkits-marketing list-ides     # サポートIDEを一覧
+npx @aitytech/agentkits-marketing list-modules  # 利用可能なモジュールを一覧
+npx @aitytech/agentkits-marketing update        # 既存インストールを更新
+```
 
 ---
 
@@ -129,20 +125,36 @@ Claude Codeのプラグインシステムから直接インストール:
 リポジトリをクローンしてその中で作業:
 
 ```bash
-git clone https://github.com/agentkits/agentkits-marketing.git
+git clone https://github.com/aitytech/agentkits-marketing.git
 cd agentkits-marketing
 claude
 ```
 
 ---
 
-### オプション3: 手動インストール
+### オプション3: プラグインとしてインストール（近日公開）
+
+> **注意:** プラグインマーケットプレイスの承認待ちです。
+
+承認後、Claude Codeのプラグインシステムから直接インストール:
+
+```bash
+# このリポジトリをマーケットプレイスとして追加
+/plugin marketplace add aitytech/agentkits-marketing
+
+# プラグインをインストール
+/plugin install agentkits-marketing@agentkits-marketing
+```
+
+---
+
+### オプション4: 手動インストール
 
 個々のコンポーネントをClaude設定にコピー:
 
 ```bash
 # リポジトリをクローン
-git clone https://github.com/agentkits/agentkits-marketing.git
+git clone https://github.com/aitytech/agentkits-marketing.git
 
 # agentsをコピー
 cp agentkits-marketing/.claude/agents/*.md ~/.claude/agents/
@@ -553,7 +565,7 @@ Free User → Paywall CRO → Paid Customer
 - [AgentKitsホームページ](https://agentkits.net)
 - [Marketing Kitページ](https://agentkits.net/marketing.html)
 - [ドキュメント](https://docs.agentkits.net)
-- [AgentKits CLI](https://github.com/agentkits/agentkits-cli)
+- [AgentKits CLI](https://github.com/aitytech/agentkits-cli)
 
 ### AIアシスタント
 - [Claude Code Docs](https://docs.claude.com/en/docs/claude-code/overview)
@@ -562,18 +574,18 @@ Free User → Paywall CRO → Paid Customer
 - [Model Context Protocol](https://modelcontextprotocol.io)
 
 ### コミュニティ
-- [GitHub Issues](https://github.com/agentkits/agentkits-marketing/issues)
-- [GitHub Discussions](https://github.com/agentkits/agentkits-marketing/discussions)
+- [GitHub Issues](https://github.com/aitytech/agentkits-marketing/issues)
+- [GitHub Discussions](https://github.com/aitytech/agentkits-marketing/discussions)
 
 ---
 
 ## スター履歴
 
-<a href="https://star-history.com/#agentkits/agentkits-marketing&Date">
+<a href="https://star-history.com/#aitytech/agentkits-marketing&Date">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=agentkits/agentkits-marketing&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=agentkits/agentkits-marketing&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=agentkits/agentkits-marketing&type=Date" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=aitytech/agentkits-marketing&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=aitytech/agentkits-marketing&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=aitytech/agentkits-marketing&type=Date" />
  </picture>
 </a>
 

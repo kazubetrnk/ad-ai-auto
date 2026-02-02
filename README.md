@@ -1,11 +1,11 @@
 <p align="center">
-  <img src="assets/logo.svg" alt="AgentKits Logo" width="80" height="80">
+  <img src="https://raw.githubusercontent.com/aitytech/agentkits-marketing/main/assets/logo.svg" alt="AgentKits Logo" width="80" height="80">
 </p>
 
 <h1 align="center">AgentKits Marketing</h1>
 
 <p align="center">
-  <a href="https://github.com/agentkits/agentkits-marketing/stargazers"><img src="https://img.shields.io/github/stars/agentkits/agentkits-marketing?style=flat" alt="Stars"></a>
+  <a href="https://github.com/aitytech/agentkits-marketing/stargazers"><img src="https://img.shields.io/github/stars/aitytech/agentkits-marketing?style=flat" alt="Stars"></a>
   <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License">
   <img src="https://img.shields.io/badge/Claude_Code%20|%20Cursor%20|%20Copilot-Compatible-blueviolet" alt="AI Assistants">
   <br>
@@ -90,37 +90,33 @@ agentkits-marketing/
 
 ## Installation
 
-### Option 1: Install as Plugin (Recommended)
+### Option 1: Install via npx (Recommended)
 
-Install directly via Claude Code's plugin system:
+One command to install 18 agents, 28 skills, 93 commands:
 
 ```bash
-# Add this repo as a marketplace
-/plugin marketplace add agentkits/agentkits-marketing
-
-# Install the plugin
-/plugin install agentkits-marketing@agentkits-marketing
+npx @aitytech/agentkits-marketing install
 ```
 
-Or add directly to your `~/.claude/settings.json`:
+**Platform-specific installation:**
 
-```json
-{
-  "extraKnownMarketplaces": {
-    "agentkits-marketing": {
-      "source": {
-        "source": "github",
-        "repo": "agentkits/agentkits-marketing"
-      }
-    }
-  },
-  "enabledPlugins": {
-    "agentkits-marketing@agentkits-marketing": true
-  }
-}
+```bash
+npx @aitytech/agentkits-marketing install --platform claude    # Claude Code
+npx @aitytech/agentkits-marketing install --platform cursor    # Cursor IDE
+npx @aitytech/agentkits-marketing install --platform windsurf  # Windsurf
+npx @aitytech/agentkits-marketing install --platform cline     # Cline
+npx @aitytech/agentkits-marketing install --platform copilot   # GitHub Copilot
+npx @aitytech/agentkits-marketing install --platform all       # All platforms
 ```
 
-This gives you instant access to all commands, agents, skills, and workflows.
+**Other CLI commands:**
+
+```bash
+npx @aitytech/agentkits-marketing --help        # Show all commands
+npx @aitytech/agentkits-marketing list-ides     # List supported IDEs
+npx @aitytech/agentkits-marketing list-modules  # List available modules
+npx @aitytech/agentkits-marketing update        # Update existing installation
+```
 
 ---
 
@@ -129,20 +125,36 @@ This gives you instant access to all commands, agents, skills, and workflows.
 Clone the repository and work within it:
 
 ```bash
-git clone https://github.com/agentkits/agentkits-marketing.git
+git clone https://github.com/aitytech/agentkits-marketing.git
 cd agentkits-marketing
 claude
 ```
 
 ---
 
-### Option 3: Manual Installation
+### Option 3: Install as Plugin (Coming Soon)
+
+> **Note:** Plugin marketplace submission is pending approval.
+
+Once approved, install directly via Claude Code's plugin system:
+
+```bash
+# Add this repo as a marketplace
+/plugin marketplace add aitytech/agentkits-marketing
+
+# Install the plugin
+/plugin install agentkits-marketing@agentkits-marketing
+```
+
+---
+
+### Option 4: Manual Installation
 
 Copy individual components to your Claude config:
 
 ```bash
 # Clone the repo
-git clone https://github.com/agentkits/agentkits-marketing.git
+git clone https://github.com/aitytech/agentkits-marketing.git
 
 # Copy agents
 cp agentkits-marketing/.claude/agents/*.md ~/.claude/agents/
@@ -553,7 +565,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 - [AgentKits Homepage](https://agentkits.net)
 - [Marketing Kit Page](https://agentkits.net/marketing.html)
 - [Documentation](https://docs.agentkits.net)
-- [AgentKits CLI](https://github.com/agentkits/agentkits-cli)
+- [AgentKits CLI](https://github.com/aitytech/agentkits-cli)
 
 ### AI Assistants
 - [Claude Code Docs](https://docs.claude.com/en/docs/claude-code/overview)
@@ -562,18 +574,18 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 - [Model Context Protocol](https://modelcontextprotocol.io)
 
 ### Community
-- [GitHub Issues](https://github.com/agentkits/agentkits-marketing/issues)
-- [GitHub Discussions](https://github.com/agentkits/agentkits-marketing/discussions)
+- [GitHub Issues](https://github.com/aitytech/agentkits-marketing/issues)
+- [GitHub Discussions](https://github.com/aitytech/agentkits-marketing/discussions)
 
 ---
 
 ## Star History
 
-<a href="https://star-history.com/#agentkits/agentkits-marketing&Date">
+<a href="https://star-history.com/#aitytech/agentkits-marketing&Date">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=agentkits/agentkits-marketing&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=agentkits/agentkits-marketing&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=agentkits/agentkits-marketing&type=Date" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=aitytech/agentkits-marketing&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=aitytech/agentkits-marketing&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=aitytech/agentkits-marketing&type=Date" />
  </picture>
 </a>
 

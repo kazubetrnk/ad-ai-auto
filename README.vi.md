@@ -1,11 +1,11 @@
 <p align="center">
-  <img src="assets/logo.svg" alt="AgentKits Logo" width="80" height="80">
+  <img src="https://raw.githubusercontent.com/aitytech/agentkits-marketing/main/assets/logo.svg" alt="AgentKits Logo" width="80" height="80">
 </p>
 
 <h1 align="center">AgentKits Marketing</h1>
 
 <p align="center">
-  <a href="https://github.com/agentkits/agentkits-marketing/stargazers"><img src="https://img.shields.io/github/stars/agentkits/agentkits-marketing?style=flat" alt="Stars"></a>
+  <a href="https://github.com/aitytech/agentkits-marketing/stargazers"><img src="https://img.shields.io/github/stars/aitytech/agentkits-marketing?style=flat" alt="Stars"></a>
   <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License">
   <img src="https://img.shields.io/badge/Claude_Code%20|%20Cursor%20|%20Copilot-Compatible-blueviolet" alt="AI Assistants">
   <br>
@@ -90,37 +90,33 @@ agentkits-marketing/
 
 ## Cài Đặt
 
-### Tùy chọn 1: Cài đặt như Plugin (Khuyến nghị)
+### Tùy chọn 1: Cài đặt qua npx (Khuyến nghị)
 
-Cài đặt trực tiếp qua hệ thống plugin của Claude Code:
+Một lệnh để cài đặt 18 agents, 28 skills, 93 commands:
 
 ```bash
-# Thêm repo này như một marketplace
-/plugin marketplace add agentkits/agentkits-marketing
-
-# Cài đặt plugin
-/plugin install agentkits-marketing@agentkits-marketing
+npx @aitytech/agentkits-marketing install
 ```
 
-Hoặc thêm trực tiếp vào `~/.claude/settings.json`:
+**Cài đặt theo nền tảng cụ thể:**
 
-```json
-{
-  "extraKnownMarketplaces": {
-    "agentkits-marketing": {
-      "source": {
-        "source": "github",
-        "repo": "agentkits/agentkits-marketing"
-      }
-    }
-  },
-  "enabledPlugins": {
-    "agentkits-marketing@agentkits-marketing": true
-  }
-}
+```bash
+npx @aitytech/agentkits-marketing install --platform claude    # Claude Code
+npx @aitytech/agentkits-marketing install --platform cursor    # Cursor IDE
+npx @aitytech/agentkits-marketing install --platform windsurf  # Windsurf
+npx @aitytech/agentkits-marketing install --platform cline     # Cline
+npx @aitytech/agentkits-marketing install --platform copilot   # GitHub Copilot
+npx @aitytech/agentkits-marketing install --platform all       # Tất cả nền tảng
 ```
 
-Điều này cho phép bạn truy cập ngay tất cả commands, agents, skills và workflows.
+**Các lệnh CLI khác:**
+
+```bash
+npx @aitytech/agentkits-marketing --help        # Hiển thị tất cả lệnh
+npx @aitytech/agentkits-marketing list-ides     # Liệt kê các IDE được hỗ trợ
+npx @aitytech/agentkits-marketing list-modules  # Liệt kê các module có sẵn
+npx @aitytech/agentkits-marketing update        # Cập nhật cài đặt hiện có
+```
 
 ---
 
@@ -129,20 +125,36 @@ Hoặc thêm trực tiếp vào `~/.claude/settings.json`:
 Clone repository và làm việc trong đó:
 
 ```bash
-git clone https://github.com/agentkits/agentkits-marketing.git
+git clone https://github.com/aitytech/agentkits-marketing.git
 cd agentkits-marketing
 claude
 ```
 
 ---
 
-### Tùy chọn 3: Cài đặt Thủ công
+### Tùy chọn 3: Cài đặt như Plugin (Sắp ra mắt)
+
+> **Lưu ý:** Đang chờ phê duyệt plugin marketplace.
+
+Sau khi được phê duyệt, cài đặt trực tiếp qua hệ thống plugin của Claude Code:
+
+```bash
+# Thêm repo này như một marketplace
+/plugin marketplace add aitytech/agentkits-marketing
+
+# Cài đặt plugin
+/plugin install agentkits-marketing@agentkits-marketing
+```
+
+---
+
+### Tùy chọn 4: Cài đặt Thủ công
 
 Sao chép từng thành phần vào cấu hình Claude của bạn:
 
 ```bash
 # Clone repo
-git clone https://github.com/agentkits/agentkits-marketing.git
+git clone https://github.com/aitytech/agentkits-marketing.git
 
 # Sao chép agents
 cp agentkits-marketing/.claude/agents/*.md ~/.claude/agents/
@@ -553,7 +565,7 @@ Xem [CONTRIBUTING.md](CONTRIBUTING.md) để biết hướng dẫn.
 - [AgentKits Homepage](https://agentkits.net)
 - [Marketing Kit Page](https://agentkits.net/marketing.html)
 - [Tài liệu](https://docs.agentkits.net)
-- [AgentKits CLI](https://github.com/agentkits/agentkits-cli)
+- [AgentKits CLI](https://github.com/aitytech/agentkits-cli)
 
 ### AI Assistants
 - [Claude Code Docs](https://docs.claude.com/en/docs/claude-code/overview)
@@ -562,18 +574,18 @@ Xem [CONTRIBUTING.md](CONTRIBUTING.md) để biết hướng dẫn.
 - [Model Context Protocol](https://modelcontextprotocol.io)
 
 ### Cộng đồng
-- [GitHub Issues](https://github.com/agentkits/agentkits-marketing/issues)
-- [GitHub Discussions](https://github.com/agentkits/agentkits-marketing/discussions)
+- [GitHub Issues](https://github.com/aitytech/agentkits-marketing/issues)
+- [GitHub Discussions](https://github.com/aitytech/agentkits-marketing/discussions)
 
 ---
 
 ## Lịch Sử Star
 
-<a href="https://star-history.com/#agentkits/agentkits-marketing&Date">
+<a href="https://star-history.com/#aitytech/agentkits-marketing&Date">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=agentkits/agentkits-marketing&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=agentkits/agentkits-marketing&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=agentkits/agentkits-marketing&type=Date" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=aitytech/agentkits-marketing&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=aitytech/agentkits-marketing&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=aitytech/agentkits-marketing&type=Date" />
  </picture>
 </a>
 
