@@ -15,7 +15,9 @@
     "semantic-release": "semantic-release",
     "prepare": "husky",
     "translate-readme": "node scripts/translate-readme/cli.js -v README.md",
-    "translate-readme:all": "node scripts/translate-readme/cli.js -v README.md zh ja ko es de fr pt-br vi ru ar"
+    "translate-readme:all": "node scripts/translate-readme/cli.js -v README.md zh ja ko es de fr pt-br vi ru ar",
+    "translate-training": "node scripts/translate-training/cli.js -v .claude/commands/training",
+    "translate-training:all": "node scripts/translate-training/cli.js -v .claude/commands/training zh ko es de fr pt-br ru ar"
   },
   "repository": {
     "type": "git",
