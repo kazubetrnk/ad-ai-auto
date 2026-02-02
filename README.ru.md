@@ -1,5 +1,3 @@
-🌐 Это автоматический перевод. Приветствуются исправления от сообщества!
-
 ---
 <p align="center">
   <img src="https://raw.githubusercontent.com/aitytech/agentkits-marketing/main/assets/logo.svg" alt="AgentKits Logo" width="80" height="80">

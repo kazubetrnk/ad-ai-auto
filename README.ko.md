@@ -1,5 +1,3 @@
-🌐 자동 번역된 문서입니다. 커뮤니티의 수정을 환영합니다!
-
 ---
 <p align="center">
   <img src="https://raw.githubusercontent.com/aitytech/agentkits-marketing/main/assets/logo.svg" alt="AgentKits Logo" width="80" height="80">
