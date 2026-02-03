@@ -30,7 +30,7 @@
 </p>
 
 <p align="center">
-  <strong>English</strong> | <a href="README.vi.md">Tiếng Việt</a> | <a href="README.ja.md">日本語</a>
+  🌐 <strong>English</strong> · <a href="README.zh.md">简体中文</a> · <a href="README.ja.md">日本語</a> · <a href="README.ko.md">한국어</a> · <a href="README.es.md">Español</a> · <a href="README.de.md">Deutsch</a> · <a href="README.fr.md">Français</a> · <a href="README.pt-br.md">Português</a> · <a href="README.vi.md">Tiếng Việt</a> · <a href="README.ru.md">Русский</a> · <a href="README.ar.md">العربية</a>
 </p>
 
 ---
@@ -98,9 +98,17 @@ agentkits-marketing/
 |       |-- sales-workflow.md           # Lead to customer
 |       |-- crm-workflow.md             # Contact lifecycle
 |
-|-- training/            # 23 interactive training lessons (English)
-|-- training-vi/         # Vietnamese training (Tiếng Việt)
-|-- training-ja/         # Japanese training (日本語)
+|-- training/            # 23 interactive lessons (English)
+|-- training-zh/         # 简体中文
+|-- training-ja/         # 日本語
+|-- training-ko/         # 한국어
+|-- training-es/         # Español
+|-- training-de/         # Deutsch
+|-- training-fr/         # Français
+|-- training-pt-br/      # Português
+|-- training-vi/         # Tiếng Việt
+|-- training-ru/         # Русский
+|-- training-ar/         # العربية
 |-- docs/                # Documentation and guides
 |-- marketplace.json     # Self-hosted marketplace config
 ```
@@ -332,13 +340,21 @@ cp -r agentkits-marketing/.claude/workflows/* ~/.claude/workflows/
 | **Project** | Markit agency working for client AgentKits |
 | **Duration** | 5-6 hours total |
 | **Prerequisite** | Claude Code, Cursor, or compatible AI assistant |
-| **Languages** | English, Vietnamese (Tiếng Việt), Japanese (日本語) |
+| **Languages** | 10 languages: EN, 简体中文, 日本語, 한국어, ES, DE, FR, PT, VI, RU, AR |
 
 ```bash
-# Start training now
+# Start training in your language
 /training:start-0-0           # English
-/training-vi:start-0-0        # Vietnamese (Tiếng Việt)
-/training-ja:start-0-0        # Japanese (日本語)
+/training-zh:start-0-0        # 简体中文
+/training-ja:start-0-0        # 日本語
+/training-ko:start-0-0        # 한국어
+/training-es:start-0-0        # Español
+/training-de:start-0-0        # Deutsch
+/training-fr:start-0-0        # Français
+/training-pt-br:start-0-0     # Português
+/training-vi:start-0-0        # Tiếng Việt
+/training-ru:start-0-0        # Русский
+/training-ar:start-0-0        # العربية
 ```
 
 ---
