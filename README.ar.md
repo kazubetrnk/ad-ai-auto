@@ -126,15 +126,15 @@ agentkits-marketing/
 /plugin marketplace add aitytech/agentkits-marketing
 
 # تثبيت المجموعة الكاملة (18 وكيل، 28 مهارة، 93 أمر)
-/plugin install agentkits-marketing@aitytech
+/plugin install agentkits-marketing@agentkits-marketing
 ```
 
 يمكنك أيضًا تثبيت المكونات بشكل فردي:
 
 ```bash
-/plugin install agentkits-marketing-skills@aitytech    # المهارات فقط
-/plugin install agentkits-marketing-agents@aitytech    # الوكلاء فقط
-/plugin install agentkits-marketing-commands@aitytech  # الأوامر فقط
+/plugin install agentkits-marketing-skills@agentkits-marketing    # المهارات فقط
+/plugin install agentkits-marketing-agents@agentkits-marketing    # الوكلاء فقط
+/plugin install agentkits-marketing-commands@agentkits-marketing  # الأوامر فقط
 ```
 
 أعد تشغيل Claude Code بعد التثبيت.

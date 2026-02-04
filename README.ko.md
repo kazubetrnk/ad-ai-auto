@@ -126,15 +126,15 @@ Claude Code의 플러그인 시스템을 통해 직접 설치 — 수동 설정 
 /plugin marketplace add aitytech/agentkits-marketing
 
 # 전체 스위트 설치 (18개 에이전트, 28개 스킬, 93개 커맨드)
-/plugin install agentkits-marketing@aitytech
+/plugin install agentkits-marketing@agentkits-marketing
 ```
 
 개별 컴포넌트도 설치 가능:
 
 ```bash
-/plugin install agentkits-marketing-skills@aitytech    # 스킬만
-/plugin install agentkits-marketing-agents@aitytech    # 에이전트만
-/plugin install agentkits-marketing-commands@aitytech  # 커맨드만
+/plugin install agentkits-marketing-skills@agentkits-marketing    # 스킬만
+/plugin install agentkits-marketing-agents@agentkits-marketing    # 에이전트만
+/plugin install agentkits-marketing-commands@agentkits-marketing  # 커맨드만
 ```
 
 설치 후 Claude Code를 재시작하세요.

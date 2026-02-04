@@ -126,15 +126,15 @@ agentkits-marketing/
 /plugin marketplace add aitytech/agentkits-marketing
 
 # Установить полный набор (18 агентов, 28 навыков, 93 команды)
-/plugin install agentkits-marketing@aitytech
+/plugin install agentkits-marketing@agentkits-marketing
 ```
 
 Также можно установить отдельные компоненты:
 
 ```bash
-/plugin install agentkits-marketing-skills@aitytech    # Только навыки
-/plugin install agentkits-marketing-agents@aitytech    # Только агенты
-/plugin install agentkits-marketing-commands@aitytech  # Только команды
+/plugin install agentkits-marketing-skills@agentkits-marketing    # Только навыки
+/plugin install agentkits-marketing-agents@agentkits-marketing    # Только агенты
+/plugin install agentkits-marketing-commands@agentkits-marketing  # Только команды
 ```
 
 Перезапустите Claude Code после установки.

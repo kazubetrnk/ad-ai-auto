@@ -1,5 +1,5 @@
 {
-  "name": "aitytech",
+  "name": "agentkits-marketing",
   "owner": {
     "name": "AityTech",
     "email": "contact@agentkits.net"
@@ -12,21 +12,6 @@
       "name": "agentkits-marketing",
       "source": "./",
       "description": "Full marketing automation suite with 18 agents, 90+ commands, 28 skills",
-      "author": {
-        "name": "AityTech"
-      },
-      "homepage": "https://www.agentkits.net/marketing",
-      "repository": "https://github.com/aitytech/agentkits-marketing",
-      "license": "MIT",
-      "keywords": [
-        "marketing",
-        "ai-agents",
-        "content",
-        "seo",
-        "cro",
-        "email",
-        "campaigns"
-      ],
       "category": "marketing",
       "tags": [
         "marketing",
