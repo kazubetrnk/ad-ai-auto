@@ -126,15 +126,15 @@ Claude Codeのプラグインシステム経由で直接インストール — �
 /plugin marketplace add aitytech/agentkits-marketing
 
 # フルスイートをインストール（18エージェント、28スキル、93コマンド）
-/plugin install agentkits-marketing@aitytech
+/plugin install agentkits-marketing@agentkits-marketing
 ```
 
 個別コンポーネントもインストール可能:
 
 ```bash
-/plugin install agentkits-marketing-skills@aitytech    # スキルのみ
-/plugin install agentkits-marketing-agents@aitytech    # エージェントのみ
-/plugin install agentkits-marketing-commands@aitytech  # コマンドのみ
+/plugin install agentkits-marketing-skills@agentkits-marketing    # スキルのみ
+/plugin install agentkits-marketing-agents@agentkits-marketing    # エージェントのみ
+/plugin install agentkits-marketing-commands@agentkits-marketing  # コマンドのみ
 ```
 
 インストール後、Claude Codeを再起動してください。

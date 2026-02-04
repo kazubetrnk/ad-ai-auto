@@ -126,15 +126,15 @@ agentkits-marketing/
 /plugin marketplace add aitytech/agentkits-marketing
 
 # 安装完整套件(18 个 agents、28 个 skills、93 个 commands)
-/plugin install agentkits-marketing@aitytech
+/plugin install agentkits-marketing@agentkits-marketing
 ```
 
 你也可以单独安装各个组件:
 
 ```bash
-/plugin install agentkits-marketing-skills@aitytech    # 仅 Skills
-/plugin install agentkits-marketing-agents@aitytech    # 仅 Agents
-/plugin install agentkits-marketing-commands@aitytech  # 仅 Commands
+/plugin install agentkits-marketing-skills@agentkits-marketing    # 仅 Skills
+/plugin install agentkits-marketing-agents@agentkits-marketing    # 仅 Agents
+/plugin install agentkits-marketing-commands@agentkits-marketing  # 仅 Commands
 ```
 
 安装后重启 Claude Code。

@@ -126,15 +126,15 @@ Instala directamente a través del sistema de plugins de Claude Code — sin con
 /plugin marketplace add aitytech/agentkits-marketing
 
 # Instalar la suite completa (18 agentes, 28 habilidades, 93 comandos)
-/plugin install agentkits-marketing@aitytech
+/plugin install agentkits-marketing@agentkits-marketing
 ```
 
 También puedes instalar componentes individuales:
 
 ```bash
-/plugin install agentkits-marketing-skills@aitytech    # Solo Skills
-/plugin install agentkits-marketing-agents@aitytech    # Solo Agentes
-/plugin install agentkits-marketing-commands@aitytech  # Solo Comandos
+/plugin install agentkits-marketing-skills@agentkits-marketing    # Solo Skills
+/plugin install agentkits-marketing-agents@agentkits-marketing    # Solo Agentes
+/plugin install agentkits-marketing-commands@agentkits-marketing  # Solo Comandos
 ```
 
 Reinicia Claude Code después de la instalación.

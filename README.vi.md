@@ -126,15 +126,15 @@ Cài đặt trực tiếp qua hệ thống plugin của Claude Code — không c
 /plugin marketplace add aitytech/agentkits-marketing
 
 # Cài đặt bộ đầy đủ (18 agents, 28 skills, 93 commands)
-/plugin install agentkits-marketing@aitytech
+/plugin install agentkits-marketing@agentkits-marketing
 ```
 
 Bạn cũng có thể cài đặt từng thành phần riêng lẻ:
 
 ```bash
-/plugin install agentkits-marketing-skills@aitytech    # Chỉ Skills
-/plugin install agentkits-marketing-agents@aitytech    # Chỉ Agents
-/plugin install agentkits-marketing-commands@aitytech  # Chỉ Commands
+/plugin install agentkits-marketing-skills@agentkits-marketing    # Chỉ Skills
+/plugin install agentkits-marketing-agents@agentkits-marketing    # Chỉ Agents
+/plugin install agentkits-marketing-commands@agentkits-marketing  # Chỉ Commands
 ```
 
 Khởi động lại Claude Code sau khi cài đặt.
