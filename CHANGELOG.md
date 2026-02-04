@@ -1,3 +1,10 @@
+## [1.4.0](https://github.com/aitytech/agentkits-marketing/compare/v1.3.0...v1.4.0) (2026-02-04)
+
+### 🚀 Features
+
+* bump version to 1.4.0 in package.json and package-lock.json ([9468423](https://github.com/aitytech/agentkits-marketing/commit/94684239c7ed36a7fdc81a34ce2fced3674831a6))
+* update plugin and marketplace configurations ([f9fa7e7](https://github.com/aitytech/agentkits-marketing/commit/f9fa7e78d61d474c9275690d2cede5dec4482589))
+
 ## [1.3.0](https://github.com/aitytech/agentkits-marketing/compare/v1.2.0...v1.3.0) (2026-02-03)
 
 ### 🚀 Features
