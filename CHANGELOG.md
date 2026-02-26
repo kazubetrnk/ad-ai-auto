@@ -1,3 +1,10 @@
+## [1.6.1](https://github.com/aitytech/agentkits-marketing/compare/v1.6.0...v1.6.1) (2026-02-26)
+
+### 🐞 Bug Fixes
+
+* bump version to 1.7.0 across all manifest files ([ab8870d](https://github.com/aitytech/agentkits-marketing/commit/ab8870dab9b897155cf13096915a29872f9e25d2))
+* declare command/skill/agent paths in plugin.json for plugin discovery ([f199301](https://github.com/aitytech/agentkits-marketing/commit/f199301134d3e104d34e21f78a7602a367097814)), closes [#12](https://github.com/aitytech/agentkits-marketing/issues/12)
+
 ## [1.6.0](https://github.com/aitytech/agentkits-marketing/compare/v1.5.1...v1.6.0) (2026-02-26)
 
 ### 🚀 Features
