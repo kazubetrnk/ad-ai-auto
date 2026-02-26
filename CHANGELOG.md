@@ -1,3 +1,27 @@
+## [1.6.0](https://github.com/aitytech/agentkits-marketing/compare/v1.5.1...v1.6.0) (2026-02-26)
+
+### 🚀 Features
+
+* add playbooks for SEO, signup flow, and social media strategies ([5c0b78e](https://github.com/aitytech/agentkits-marketing/commit/5c0b78e357ae44ee948ddfbb0d5047bd964cc931))
+* enhance skills registry and orchestration protocol ([806cb4b](https://github.com/aitytech/agentkits-marketing/commit/806cb4b0182a33919f1755f668b041cf25e8bb51))
+* implement IDE manager with platform configuration and handlers ([1ab3c87](https://github.com/aitytech/agentkits-marketing/commit/1ab3c870487de8e74f2fa6d916a0b3cc7e7a979d))
+* update documentation and skills metadata for AgentKits Marketing ([ad2064e](https://github.com/aitytech/agentkits-marketing/commit/ad2064eafe04cd71b662cd0f2d0ec3b6196a2137))
+
+### 🐞 Bug Fixes
+
+* restore .claude-plugin files from main ([594e61f](https://github.com/aitytech/agentkits-marketing/commit/594e61f2280e13bce68210892e3a992de8fee9b8))
+* revert version to 2.1.0 in marketplace.json, plugin.json, and package.json ([7ce523f](https://github.com/aitytech/agentkits-marketing/commit/7ce523f872028117410b089c9feb144419b9841c))
+* update version to 3.0.0 in marketplace.json ([feff415](https://github.com/aitytech/agentkits-marketing/commit/feff41516a7716eaab39167a7c8c774587fb751b))
+* update version to 3.0.0 in plugin.json and package.json ([82152dc](https://github.com/aitytech/agentkits-marketing/commit/82152dca4e8b585ecac09bb82471a9956a79536d))
+
+### ♻️ Code Refactoring
+
+* update AgentKits to Marketing branding and configs ([13a3083](https://github.com/aitytech/agentkits-marketing/commit/13a30835aa0b1382a9de63fbb7fc141acd752a4c))
+
+### 👷 CI
+
+* upgrade github actions workflows and dependencies ([a263321](https://github.com/aitytech/agentkits-marketing/commit/a2633213473ed4cbfb76ad9dac5c3da743e29d9a))
+
 ## [1.5.1](https://github.com/aitytech/agentkits-marketing/compare/v1.5.0...v1.5.1) (2026-02-10)
 
 ### 🐞 Bug Fixes
