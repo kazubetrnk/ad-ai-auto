@@ -50,6 +50,7 @@
   },
   "homepage": "https://agentkits.net",
   "files": [
+    ".claude-plugin/",
     ".claude/",
     "bin/",
     "installers/",
