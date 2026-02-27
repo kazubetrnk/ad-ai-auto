@@ -63,6 +63,27 @@ const { execSync } = require('child_process');
     fs.writeFileSync(metadataPath, `${JSON.stringify(metadata, null, 2)}\n`, 'utf8');
     console.log(`✓ Generated metadata.json with version ${metadata.version}`);
 
+    // Sync version into .claude-plugin/plugin.json and marketplace.json
+    const pluginJsonPath = path.join(projectRoot, '.claude-plugin', 'plugin.json');
+    const marketplaceJsonPath = path.join(projectRoot, '.claude-plugin', 'marketplace.json');
+
+    if (fs.existsSync(pluginJsonPath)) {
+      const pluginJson = JSON.parse(fs.readFileSync(pluginJsonPath, 'utf8'));
+      pluginJson.version = version;
+      fs.writeFileSync(pluginJsonPath, `${JSON.stringify(pluginJson, null, 2)}\n`, 'utf8');
+      console.log(`✓ Synced plugin.json to version ${version}`);
+    }
+
+    if (fs.existsSync(marketplaceJsonPath)) {
+      const marketplaceJson = JSON.parse(fs.readFileSync(marketplaceJsonPath, 'utf8'));
+      if (marketplaceJson.metadata) {
+        marketplaceJson.metadata.version = version;
+        marketplaceJson.metadata.updatedAt = new Date().toISOString().split('T')[0];
+      }
+      fs.writeFileSync(marketplaceJsonPath, `${JSON.stringify(marketplaceJson, null, 2)}\n`, 'utf8');
+      console.log(`✓ Synced marketplace.json to version ${version}`);
+    }
+
     if (!fs.existsSync(distDir)) {
       fs.mkdirSync(distDir, { recursive: true });
     }
@@ -72,6 +93,7 @@ const { execSync } = require('child_process');
     }
 
     const archiveTargets = [
+      '.claude-plugin',
       '.claude',
       '.opencode',
       'plans',
