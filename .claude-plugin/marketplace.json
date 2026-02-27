@@ -8,8 +8,8 @@
   "metadata": {
     "description": "AI marketing agent tools by AityTech",
     "longDescription": "Complete marketing automation suite with 18 specialized agents, 90+ slash commands, 28 marketing skills, and interactive training. Covers campaigns, content, SEO, CRO, email, sales enablement, and analytics.",
-    "version": "1.7.1",
-    "updatedAt": "2026-02-26"
+    "version": "1.6.2",
+    "updatedAt": "2026-02-27"
   },
   "plugins": [
     {
@@ -33,21 +33,30 @@
       "source": "./.claude/skills",
       "description": "28 marketing skills including CRO, SEO, copywriting, psychology, and growth",
       "category": "skills",
-      "tags": ["skills", "marketing"]
+      "tags": [
+        "skills",
+        "marketing"
+      ]
     },
     {
       "name": "agentkits-marketing-agents",
       "source": "./.claude/agents",
       "description": "18 specialized marketing agents for campaigns, content, and optimization",
       "category": "agents",
-      "tags": ["agents", "marketing"]
+      "tags": [
+        "agents",
+        "marketing"
+      ]
     },
     {
       "name": "agentkits-marketing-commands",
       "source": "./.claude/commands",
       "description": "90+ marketing slash commands for campaigns, content, SEO, CRO, and analytics",
       "category": "commands",
-      "tags": ["commands", "marketing"]
+      "tags": [
+        "commands",
+        "marketing"
+      ]
     }
   ]
 }

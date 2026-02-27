@@ -1,3 +1,10 @@
+## [1.6.2](https://github.com/aitytech/agentkits-marketing/compare/v1.6.1...v1.6.2) (2026-02-27)
+
+### 🐞 Bug Fixes
+
+* bump version to 1.7.1 across all manifest files ([758fd4c](https://github.com/aitytech/agentkits-marketing/commit/758fd4c6e55b00f3dfaa6f0942e3d28cad086a86))
+* sync plugin manifest versions with semantic-release pipeline ([6946552](https://github.com/aitytech/agentkits-marketing/commit/6946552fe33fde0babe65adbf34e50da539eb7c0))
+
 ## [1.6.1](https://github.com/aitytech/agentkits-marketing/compare/v1.6.0...v1.6.1) (2026-02-26)
 
 ### 🐞 Bug Fixes

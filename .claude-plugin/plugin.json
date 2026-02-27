@@ -1,6 +1,6 @@
 {
   "name": "agentkits-marketing",
-  "version": "1.7.1",
+  "version": "1.6.2",
   "description": "Enterprise-grade AI marketing automation framework - 18 agents, 90+ commands, 28 skills for campaigns, content, SEO, and conversion optimization",
   "commands": "./.claude/commands",
   "skills": "./.claude/skills",
