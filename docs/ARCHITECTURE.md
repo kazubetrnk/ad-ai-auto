@@ -308,7 +308,7 @@ CREATE TABLE ai_reports (
 | Google広告 | google-ads Python SDK | 公式SDK |
 | Meta広告 | facebook-business SDK | 公式SDK |
 | 実行環境 | Mac mini (常時稼働) | 既存インフラ |
-| バージョン管理 | GitHub | kazubetrnk/ad-ai-auto |
+| バージョン管理 | GitHub | BKStock/b-ai-ad-engine |
 
 ---
 
